@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="str1">Miki Creative Mints</string>
+    <string name="str2">IU/UX Designer at KREATIVE</string>
+    <string name="str">Usuario</string>
+    <string name="strd">Contraseña</string>
+    <string name="str_4">Aceptar</string>
+    <string name="str_5">Mostrar mas opciones</string>
+</resources>

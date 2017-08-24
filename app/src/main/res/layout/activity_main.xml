@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.i005114.quiz.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/fondo">
+
+
+                <RelativeLayout
+                    android:id="@+id/r1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:background="@color/fondo">
+
+                    <ImageView
+                        android:id="@+id/img_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icons8_garena_96" />
+
+
+                    <EditText
+                        android:id="@+id/txt1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/img_1"
+                        android:text="@string/str1"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txt1"
+                        android:layout_toRightOf="@id/img_1"
+                        android:text="@string/str2"
+                        android:textColor="@color/colo1"
+                        android:textSize="12dp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/r1"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/juego2" />
+
+                    <EditText
+                        android:id="@+id/txt2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/img_2"
+                        android:text="Os/game/margin of game"/>
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txt2"
+                        android:layout_toRightOf="@id/img_2"
+                        android:text="Game desing,illustration ios fine"
+                        android:textColor="@color/colo1"
+                        android:textSize="12dp" />/>
+
+                </RelativeLayout>
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/fondo">
+
+
+                <RelativeLayout
+                    android:id="@+id/r3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:background="@color/fondo">
+
+                    <ImageView
+                        android:id="@+id/img_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icons8_garena_96" />
+
+
+                    <EditText
+                        android:id="@+id/txt3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/img_3"
+                        android:text="@string/str1"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txt3"
+                        android:layout_toRightOf="@id/img_3"
+                        android:text="@string/str2"
+                        android:textColor="@color/colo1"
+                        android:textSize="12dp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/r3"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/juego2" />
+
+                    <EditText
+                        android:id="@+id/txt4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/img_4"
+                        android:text="Os/game/margin of game"/>
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txt4"
+                        android:layout_toRightOf="@id/img_4"
+                        android:text="Game desing,illustration ios fine"
+                        android:textColor="@color/colo1"
+                        android:textSize="12dp" />/>
+
+                </RelativeLayout>
+
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/fondo">
+
+
+                <RelativeLayout
+                    android:id="@+id/r4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:background="@color/fondo">
+
+                    <ImageView
+                        android:id="@+id/img_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/icons8_garena_96" />
+
+
+                    <EditText
+                        android:id="@+id/txt5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/img_5"
+                        android:text="@string/str1"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txt5"
+                        android:layout_toRightOf="@id/img_5"
+                        android:text="@string/str2"
+                        android:textColor="@color/colo1"
+                        android:textSize="12dp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/r4"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/juego2" />
+
+                    <EditText
+                        android:id="@+id/txt6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/img_6"
+                        android:text="Os/game/margin of game"/>
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txt6"
+                        android:layout_toRightOf="@id/img_6"
+                        android:text="Game desing,illustration ios fine"
+                        android:textColor="@color/colo1"
+                        android:textSize="12dp" />/>
+
+                </RelativeLayout>
+
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="bottom|end"
+        android:src="@drawable/icons8_plus_48"/>
+</android.support.design.widget.CoordinatorLayout>
